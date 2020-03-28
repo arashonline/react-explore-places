@@ -6,3 +6,6 @@ expo install expo-image-picker
 
 <!-- To ask for permissions -->
 expo install expo-permissions
+
+<!-- to use file system -->
+expo install expo-file-system
