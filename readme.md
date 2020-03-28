@@ -15,3 +15,6 @@ expo install expo-sqlite
 
 <!-- to get location -->
 expo install expo-location
+
+<!-- to use map view -->
+expo install react-native-maps
