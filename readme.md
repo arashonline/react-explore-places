@@ -12,3 +12,6 @@ expo install expo-file-system
 
 <!-- to use SQLite -->
 expo install expo-sqlite
+
+<!-- to get location -->
+expo install expo-location
