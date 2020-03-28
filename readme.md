@@ -9,3 +9,6 @@ expo install expo-permissions
 
 <!-- to use file system -->
 expo install expo-file-system
+
+<!-- to use SQLite -->
+expo install expo-sqlite
