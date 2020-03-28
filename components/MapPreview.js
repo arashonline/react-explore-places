@@ -7,7 +7,7 @@ const MapPreview = props => {
   let imagePreviewUrl;
 
   if (props.location) {
-      imagePreviewUrl = `https://www.mapquestapi.com/staticmap/v5/map?key=${ENV.openStreetMap}&center=${props.location.lat},${props.location.lng}&size=@2x`
+      imagePreviewUrl = `https://www.mapquestapi.com/staticmap/v5/map?key=${ENV.openStreetMap}&locations=${props.location.lat},${props.location.lng}&center=${props.location.lat},${props.location.lng}&size=@2x&defaultMarker=flag-md-3B5998-22407F-${props.title}`
   }
 
   return (
